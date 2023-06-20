@@ -1,0 +1,33 @@
+[33mcommit cb7ebab003492652d4c2415cb2889e9e49707399[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: gasterexon <nikitasapovalenko35@gmail.com>
+Date:   Tue Jun 13 17:30:36 2023 +0400
+
+    Initial commit
+
+[1mdiff --git a/Project.py b/Project.py[m
+[1mnew file mode 100644[m
+[1mindex 0000000..820326e[m
+[1m--- /dev/null[m
+[1m+++ b/Project.py[m
+[36m@@ -0,0 +1,20 @@[m
+[32m+[m[32m# def strcounter(s):[m
+[32m+[m[32m#     for symbol in set(s):[m
+[32m+[m[32m#         counter = 0[m
+[32m+[m[32m#         for sub_symbol in s:[m
+[32m+[m[32m#             if symbol == sub_symbol:[m
+[32m+[m[32m#                 counter += 1[m
+[32m+[m
+[32m+[m[32m#         print(symbol, counter)[m
+[32m+[m
+[32m+[m[32m# strcounter('aaadbcd')[m
+[32m+[m
+[32m+[m[32mdef strcounter(s):[m
+[32m+[m[32m    syms_counter = {}[m
+[32m+[m[32m    for symbol in s:[m
+[32m+[m[32m        syms_counter[symbol] = syms_counter.get(symbol, 0) + 1[m
+[32m+[m
+[32m+[m[32m    for symbol, count in syms_counter.items():[m
+[32m+[m[32m        print(symbol, count)[m
+[32m+[m
+[32m+[m[32mstrcounter('wodopad')[m
+\ No newline at end of file[m
