@@ -1,0 +1,14 @@
+h1{
+    background: green;
+}
+
+.ti-pidor{
+    text-align: center;
+    background: darkgray;
+    margin-top: 48px;
+}
+.pidor2{
+    font-family: 'Courier New';
+    font-weight: 300;
+    padding-top: 60px;
+}
